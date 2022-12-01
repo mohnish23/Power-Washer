@@ -30,7 +30,7 @@ public class UpgradeManager : MonoBehaviour
     void Update()
     {
         player.SubtractionInterval = PlayerPrefs.GetFloat("SubInterval", 0.1f);
-        player.Speed = PlayerPrefs.GetFloat("Speed", 0.02f);
+        player.Speed = PlayerPrefs.GetFloat("Speed", 0.025f);
 
         SizeLevel.text = "Lv. " + PlayerPrefs.GetInt("SizeLevel", 1).ToString();
         SizeValue.text = PlayerPrefs.GetInt("SizeValue", 2000).ToString();
@@ -64,6 +64,14 @@ public class UpgradeManager : MonoBehaviour
         else
         {
             SpeedBtn.interactable = true;
+        }
+
+        if(Input.GetKeyDown(KeyCode.K))
+        {
+            PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money") + 8000);
+            SizeUpgrade();
+            CapacityUpgrade();
+            SpeedUpgrade();
         }
     }
 
