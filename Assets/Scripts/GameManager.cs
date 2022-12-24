@@ -32,6 +32,11 @@ public class GameManager : MonoBehaviour
         }
 
         Camera.main.transform.position = Vector3.Lerp(Camera.main.transform.position, Pos, Time.deltaTime * 2f);
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            ScreenCapture.CaptureScreenshot("ScreenShot.png");
+        }
     }
 
     public IEnumerator LevelCompleteRoutine()

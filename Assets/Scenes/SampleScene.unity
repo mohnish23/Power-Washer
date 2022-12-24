@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18035254, g: 0.22578925, b: 0.30702662, a: 1}
+  m_IndirectSpecularColor: {r: 0.18018606, g: 0.22559257, b: 0.30678663, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -15778,7 +15778,7 @@ MonoBehaviour:
   - {fileID: 1228239876}
 --- !u!95 &464727594
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -15795,7 +15795,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!136 &464727595
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16187,7 +16187,7 @@ MonoBehaviour:
   - {fileID: 1290498392}
 --- !u!95 &467890769
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -16204,7 +16204,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!136 &467890770
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -49400,7 +49400,7 @@ MonoBehaviour:
   - {fileID: 236754906}
 --- !u!95 &1092314000
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -49417,7 +49417,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!136 &1092314001
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -58059,7 +58059,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.51600003}
   m_AnchorMax: {x: 1, y: 0.96500003}
-  m_AnchoredPosition: {x: 265.58276, y: 380.4238}
+  m_AnchoredPosition: {x: 265.58276, y: 380.42377}
   m_SizeDelta: {x: -174.36633, y: -836.2891}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1194465202
@@ -69752,7 +69752,7 @@ MonoBehaviour:
   async: 1
   downsampleSteps: 3
   registeredPaintableTexture: {fileID: 0}
-  cooldown: -6729.405
+  cooldown: -6731.4385
   currentReader:
     requested: 0
     buffer: {fileID: 0}
@@ -72133,7 +72133,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &1616575861
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -72150,7 +72150,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!114 &1616575862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86219,7 +86219,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.51600003}
   m_AnchorMax: {x: 1, y: 0.96500003}
-  m_AnchoredPosition: {x: 265.58276, y: 380.4238}
+  m_AnchoredPosition: {x: 265.58276, y: 380.42377}
   m_SizeDelta: {x: -174.36633, y: -836.2891}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1789949079
@@ -94601,7 +94601,7 @@ MonoBehaviour:
   async: 1
   downsampleSteps: 3
   registeredPaintableTexture: {fileID: 0}
-  cooldown: -7275.185
+  cooldown: -7279.3574
   currentReader:
     requested: 0
     buffer: {fileID: 0}
@@ -108666,6 +108666,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2105691649}
   m_Mesh: {fileID: 8342159127421523248, guid: 795896afa2e984b6789a9a16e80e77a5, type: 3}
+--- !u!1 &2105960730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2105960732}
+  - component: {fileID: 2105960731}
+  m_Layer: 0
+  m_Name: ClikPlugin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2105960731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105960730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c67e30af5584648eca7c10a98a81391d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2105960732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105960730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.8229141, y: -1.1468806, z: -5.8733945}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2107023568
 GameObject:
   m_ObjectHideFlags: 0

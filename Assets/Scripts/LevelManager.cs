@@ -2,18 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Tabtale.TTPlugins;
 
 public class LevelManager : MonoBehaviour
 {
     public List<GameObject> Levels;
-
-    private void Awake()
-    {
-        // Initialize CLIK Plugin
-        TTPCore.Setup();
-        // Your code here
-    }
 
     // Start is called before the first frame update
     void Start()

@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 template <typename T1>
@@ -141,12 +140,6 @@ struct List_1_t91E36549D76184780FD8995722CD4A87A2650C23  : public RuntimeObject
 	RuntimeObject* ____syncRoot_4;
 };
 
-struct List_1_t91E36549D76184780FD8995722CD4A87A2650C23_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	BaseInvokableCallU5BU5D_tF8AC2AD8CB819841C1BA6BCAF4C2733CCD50296F* ___s_emptyArray_5;
-};
-
 // System.Collections.Generic.List`1<System.Object>
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
 {
@@ -159,13 +152,6 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
 	// System.Object System.Collections.Generic.List`1::_syncRoot
 	RuntimeObject* ____syncRoot_4;
 };
-
-struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
-};
-struct Il2CppArrayBounds;
 
 // UnityEngine.Events.BaseInvokableCall
 struct BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339  : public RuntimeObject
@@ -184,12 +170,6 @@ struct String_t  : public RuntimeObject
 	int32_t ____stringLength_4;
 	// System.Char System.String::_firstChar
 	Il2CppChar ____firstChar_5;
-};
-
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
 };
 
 // UnityEngine.Events.UnityEventBase
@@ -221,14 +201,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 {
 	// System.Boolean System.Boolean::m_value
 	bool ___m_value_0;
-};
-
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
 };
 
 // UnityEngine.PlayerLoop.EarlyUpdate
@@ -279,12 +251,6 @@ struct IntPtr_t
 {
 	// System.Void* System.IntPtr::m_value
 	void* ___m_value_0;
-};
-
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
 };
 
 // UnityEngine.Events.InvokableCall
@@ -2045,6 +2011,656 @@ struct Type_t  : public MemberInfo_t
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
 };
 
+// UnityEngine.Events.UnityAction
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7  : public MulticastDelegate_t
+{
+};
+
+// UnityEngine.LowLevel.PlayerLoopSystem/UpdateFunction
+struct UpdateFunction_t1C48B7EECBE47AC123A9D9D7D9D2A9EE951C56C4  : public MulticastDelegate_t
+{
+};
+
+// System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>
+struct List_1_t91E36549D76184780FD8995722CD4A87A2650C23_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	BaseInvokableCallU5BU5D_tF8AC2AD8CB819841C1BA6BCAF4C2733CCD50296F* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>
+
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.Object>
+
+// UnityEngine.Events.BaseInvokableCall
+
+// UnityEngine.Events.BaseInvokableCall
+
+// System.Reflection.MemberInfo
+
+// System.Reflection.MemberInfo
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// UnityEngine.Events.UnityEventBase
+
+// UnityEngine.Events.UnityEventBase
+
+// System.ValueType
+
+// System.ValueType
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// UnityEngine.PlayerLoop.EarlyUpdate
+
+// UnityEngine.PlayerLoop.EarlyUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate
+
+// UnityEngine.PlayerLoop.Initialization
+
+// UnityEngine.PlayerLoop.Initialization
+
+// System.Int32
+
+// System.Int32
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// UnityEngine.Events.InvokableCall
+
+// UnityEngine.Events.InvokableCall
+
+// System.Reflection.MethodBase
+
+// System.Reflection.MethodBase
+
+// UnityEngine.PlayerLoop.PostLateUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate
+
+// UnityEngine.PlayerLoop.PreLateUpdate
+
+// UnityEngine.PlayerLoop.PreLateUpdate
+
+// UnityEngine.PlayerLoop.PreUpdate
+
+// UnityEngine.PlayerLoop.PreUpdate
+
+// UnityEngine.PlayerLoop.TimeUpdate
+
+// UnityEngine.PlayerLoop.TimeUpdate
+
+// UnityEngine.Events.UnityEvent
+
+// UnityEngine.Events.UnityEvent
+
+// UnityEngine.PlayerLoop.Update
+
+// UnityEngine.PlayerLoop.Update
+
+// System.Void
+
+// System.Void
+
+// UnityEngine.PlayerLoop.EarlyUpdate/ARCoreUpdate
+
+// UnityEngine.PlayerLoop.EarlyUpdate/ARCoreUpdate
+
+// UnityEngine.PlayerLoop.EarlyUpdate/AnalyticsCoreStatsUpdate
+
+// UnityEngine.PlayerLoop.EarlyUpdate/AnalyticsCoreStatsUpdate
+
+// UnityEngine.PlayerLoop.EarlyUpdate/ClearIntermediateRenderers
+
+// UnityEngine.PlayerLoop.EarlyUpdate/ClearIntermediateRenderers
+
+// UnityEngine.PlayerLoop.EarlyUpdate/ClearLines
+
+// UnityEngine.PlayerLoop.EarlyUpdate/ClearLines
+
+// UnityEngine.PlayerLoop.EarlyUpdate/DeliverIosPlatformEvents
+
+// UnityEngine.PlayerLoop.EarlyUpdate/DeliverIosPlatformEvents
+
+// UnityEngine.PlayerLoop.EarlyUpdate/DispatchEventQueueEvents
+
+// UnityEngine.PlayerLoop.EarlyUpdate/DispatchEventQueueEvents
+
+// UnityEngine.PlayerLoop.EarlyUpdate/ExecuteMainThreadJobs
+
+// UnityEngine.PlayerLoop.EarlyUpdate/ExecuteMainThreadJobs
+
+// UnityEngine.PlayerLoop.EarlyUpdate/GpuTimestamp
+
+// UnityEngine.PlayerLoop.EarlyUpdate/GpuTimestamp
+
+// UnityEngine.PlayerLoop.EarlyUpdate/PerformanceAnalyticsUpdate
+
+// UnityEngine.PlayerLoop.EarlyUpdate/PerformanceAnalyticsUpdate
+
+// UnityEngine.PlayerLoop.EarlyUpdate/PhysicsResetInterpolatedTransformPosition
+
+// UnityEngine.PlayerLoop.EarlyUpdate/PhysicsResetInterpolatedTransformPosition
+
+// UnityEngine.PlayerLoop.EarlyUpdate/PlayerCleanupCachedData
+
+// UnityEngine.PlayerLoop.EarlyUpdate/PlayerCleanupCachedData
+
+// UnityEngine.PlayerLoop.EarlyUpdate/PollHtcsPlayerConnection
+
+// UnityEngine.PlayerLoop.EarlyUpdate/PollHtcsPlayerConnection
+
+// UnityEngine.PlayerLoop.EarlyUpdate/PollPlayerConnection
+
+// UnityEngine.PlayerLoop.EarlyUpdate/PollPlayerConnection
+
+// UnityEngine.PlayerLoop.EarlyUpdate/PresentBeforeUpdate
+
+// UnityEngine.PlayerLoop.EarlyUpdate/PresentBeforeUpdate
+
+// UnityEngine.PlayerLoop.EarlyUpdate/ProcessMouseInWindow
+
+// UnityEngine.PlayerLoop.EarlyUpdate/ProcessMouseInWindow
+
+// UnityEngine.PlayerLoop.EarlyUpdate/ProcessRemoteInput
+
+// UnityEngine.PlayerLoop.EarlyUpdate/ProcessRemoteInput
+
+// UnityEngine.PlayerLoop.EarlyUpdate/RendererNotifyInvisible
+
+// UnityEngine.PlayerLoop.EarlyUpdate/RendererNotifyInvisible
+
+// UnityEngine.PlayerLoop.EarlyUpdate/ResetFrameStatsAfterPresent
+
+// UnityEngine.PlayerLoop.EarlyUpdate/ResetFrameStatsAfterPresent
+
+// UnityEngine.PlayerLoop.EarlyUpdate/ScriptRunDelayedStartupFrame
+
+// UnityEngine.PlayerLoop.EarlyUpdate/ScriptRunDelayedStartupFrame
+
+// UnityEngine.PlayerLoop.EarlyUpdate/SpriteAtlasManagerUpdate
+
+// UnityEngine.PlayerLoop.EarlyUpdate/SpriteAtlasManagerUpdate
+
+// UnityEngine.PlayerLoop.EarlyUpdate/TangoUpdate
+
+// UnityEngine.PlayerLoop.EarlyUpdate/TangoUpdate
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UnityWebRequestUpdate
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UnityWebRequestUpdate
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UpdateAsyncReadbackManager
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UpdateAsyncReadbackManager
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UpdateCanvasRectTransform
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UpdateCanvasRectTransform
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UpdateInputManager
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UpdateInputManager
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UpdateKinect
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UpdateKinect
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UpdateMainGameViewRect
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UpdateMainGameViewRect
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UpdatePreloading
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UpdatePreloading
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UpdateStreamingManager
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UpdateStreamingManager
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UpdateTextureStreamingManager
+
+// UnityEngine.PlayerLoop.EarlyUpdate/UpdateTextureStreamingManager
+
+// UnityEngine.PlayerLoop.EarlyUpdate/XRUpdate
+
+// UnityEngine.PlayerLoop.EarlyUpdate/XRUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/AudioFixedUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/AudioFixedUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/ClearLines
+
+// UnityEngine.PlayerLoop.FixedUpdate/ClearLines
+
+// UnityEngine.PlayerLoop.FixedUpdate/DirectorFixedSampleTime
+
+// UnityEngine.PlayerLoop.FixedUpdate/DirectorFixedSampleTime
+
+// UnityEngine.PlayerLoop.FixedUpdate/DirectorFixedUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/DirectorFixedUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/DirectorFixedUpdatePostPhysics
+
+// UnityEngine.PlayerLoop.FixedUpdate/DirectorFixedUpdatePostPhysics
+
+// UnityEngine.PlayerLoop.FixedUpdate/LegacyFixedAnimationUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/LegacyFixedAnimationUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/NewInputFixedUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/NewInputFixedUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/Physics2DFixedUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/Physics2DFixedUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/PhysicsClothFixedUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/PhysicsClothFixedUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/PhysicsFixedUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/PhysicsFixedUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/ScriptRunBehaviourFixedUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/ScriptRunBehaviourFixedUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/ScriptRunDelayedFixedFrameRate
+
+// UnityEngine.PlayerLoop.FixedUpdate/ScriptRunDelayedFixedFrameRate
+
+// UnityEngine.PlayerLoop.FixedUpdate/XRFixedUpdate
+
+// UnityEngine.PlayerLoop.FixedUpdate/XRFixedUpdate
+
+// UnityEngine.PlayerLoop.Initialization/AsyncUploadTimeSlicedUpdate
+
+// UnityEngine.PlayerLoop.Initialization/AsyncUploadTimeSlicedUpdate
+
+// UnityEngine.PlayerLoop.Initialization/DirectorSampleTime
+
+// UnityEngine.PlayerLoop.Initialization/DirectorSampleTime
+
+// UnityEngine.PlayerLoop.Initialization/ProfilerStartFrame
+
+// UnityEngine.PlayerLoop.Initialization/ProfilerStartFrame
+
+// UnityEngine.PlayerLoop.Initialization/SynchronizeInputs
+
+// UnityEngine.PlayerLoop.Initialization/SynchronizeInputs
+
+// UnityEngine.PlayerLoop.Initialization/SynchronizeState
+
+// UnityEngine.PlayerLoop.Initialization/SynchronizeState
+
+// UnityEngine.PlayerLoop.Initialization/UpdateCameraMotionVectors
+
+// UnityEngine.PlayerLoop.Initialization/UpdateCameraMotionVectors
+
+// UnityEngine.PlayerLoop.Initialization/XREarlyUpdate
+
+// UnityEngine.PlayerLoop.Initialization/XREarlyUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/BatchModeUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/BatchModeUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ClearImmediateRenderers
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ClearImmediateRenderers
+
+// UnityEngine.PlayerLoop.PostLateUpdate/DirectorLateUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/DirectorLateUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/DirectorRenderImage
+
+// UnityEngine.PlayerLoop.PostLateUpdate/DirectorRenderImage
+
+// UnityEngine.PlayerLoop.PostLateUpdate/EndGraphicsJobsAfterScriptLateUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/EndGraphicsJobsAfterScriptLateUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/EnlightenRuntimeUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/EnlightenRuntimeUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ExecuteGameCenterCallbacks
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ExecuteGameCenterCallbacks
+
+// UnityEngine.PlayerLoop.PostLateUpdate/FinishFrameRendering
+
+// UnityEngine.PlayerLoop.PostLateUpdate/FinishFrameRendering
+
+// UnityEngine.PlayerLoop.PostLateUpdate/GUIClearEvents
+
+// UnityEngine.PlayerLoop.PostLateUpdate/GUIClearEvents
+
+// UnityEngine.PlayerLoop.PostLateUpdate/GraphicsWarmupPreloadedShaders
+
+// UnityEngine.PlayerLoop.PostLateUpdate/GraphicsWarmupPreloadedShaders
+
+// UnityEngine.PlayerLoop.PostLateUpdate/InputEndFrame
+
+// UnityEngine.PlayerLoop.PostLateUpdate/InputEndFrame
+
+// UnityEngine.PlayerLoop.PostLateUpdate/MemoryFrameMaintenance
+
+// UnityEngine.PlayerLoop.PostLateUpdate/MemoryFrameMaintenance
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ParticleSystemEndUpdateAll
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ParticleSystemEndUpdateAll
+
+// UnityEngine.PlayerLoop.PostLateUpdate/PhysicsSkinnedClothBeginUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/PhysicsSkinnedClothBeginUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/PhysicsSkinnedClothFinishUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/PhysicsSkinnedClothFinishUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/PlayerEmitCanvasGeometry
+
+// UnityEngine.PlayerLoop.PostLateUpdate/PlayerEmitCanvasGeometry
+
+// UnityEngine.PlayerLoop.PostLateUpdate/PlayerSendFrameComplete
+
+// UnityEngine.PlayerLoop.PostLateUpdate/PlayerSendFrameComplete
+
+// UnityEngine.PlayerLoop.PostLateUpdate/PlayerSendFramePostPresent
+
+// UnityEngine.PlayerLoop.PostLateUpdate/PlayerSendFramePostPresent
+
+// UnityEngine.PlayerLoop.PostLateUpdate/PlayerSendFrameStarted
+
+// UnityEngine.PlayerLoop.PostLateUpdate/PlayerSendFrameStarted
+
+// UnityEngine.PlayerLoop.PostLateUpdate/PlayerUpdateCanvases
+
+// UnityEngine.PlayerLoop.PostLateUpdate/PlayerUpdateCanvases
+
+// UnityEngine.PlayerLoop.PostLateUpdate/PresentAfterDraw
+
+// UnityEngine.PlayerLoop.PostLateUpdate/PresentAfterDraw
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ProcessWebSendMessages
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ProcessWebSendMessages
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ProfilerEndFrame
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ProfilerEndFrame
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ProfilerSynchronizeStats
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ProfilerSynchronizeStats
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ResetInputAxis
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ResetInputAxis
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ScriptRunDelayedDynamicFrameRate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ScriptRunDelayedDynamicFrameRate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ShaderHandleErrors
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ShaderHandleErrors
+
+// UnityEngine.PlayerLoop.PostLateUpdate/SortingGroupsUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/SortingGroupsUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ThreadedLoadingDebug
+
+// UnityEngine.PlayerLoop.PostLateUpdate/ThreadedLoadingDebug
+
+// UnityEngine.PlayerLoop.PostLateUpdate/TriggerEndOfFrameCallbacks
+
+// UnityEngine.PlayerLoop.PostLateUpdate/TriggerEndOfFrameCallbacks
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateAllRenderers
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateAllRenderers
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateAllSkinnedMeshes
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateAllSkinnedMeshes
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateAudio
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateAudio
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateCanvasRectTransform
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateCanvasRectTransform
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateCaptureScreenshot
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateCaptureScreenshot
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateCustomRenderTextures
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateCustomRenderTextures
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateLightProbeProxyVolumes
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateLightProbeProxyVolumes
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateRectTransform
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateRectTransform
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateResolution
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateResolution
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateSubstance
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateSubstance
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateVideo
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateVideo
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateVideoTextures
+
+// UnityEngine.PlayerLoop.PostLateUpdate/UpdateVideoTextures
+
+// UnityEngine.PlayerLoop.PostLateUpdate/VFXUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/VFXUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/XRPostLateUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/XRPostLateUpdate
+
+// UnityEngine.PlayerLoop.PostLateUpdate/XRPostPresent
+
+// UnityEngine.PlayerLoop.PostLateUpdate/XRPostPresent
+
+// UnityEngine.PlayerLoop.PostLateUpdate/XRPreEndFrame
+
+// UnityEngine.PlayerLoop.PostLateUpdate/XRPreEndFrame
+
+// UnityEngine.PlayerLoop.PreLateUpdate/AIUpdatePostScript
+
+// UnityEngine.PlayerLoop.PreLateUpdate/AIUpdatePostScript
+
+// UnityEngine.PlayerLoop.PreLateUpdate/ConstraintManagerUpdate
+
+// UnityEngine.PlayerLoop.PreLateUpdate/ConstraintManagerUpdate
+
+// UnityEngine.PlayerLoop.PreLateUpdate/DirectorDeferredEvaluate
+
+// UnityEngine.PlayerLoop.PreLateUpdate/DirectorDeferredEvaluate
+
+// UnityEngine.PlayerLoop.PreLateUpdate/DirectorUpdateAnimationBegin
+
+// UnityEngine.PlayerLoop.PreLateUpdate/DirectorUpdateAnimationBegin
+
+// UnityEngine.PlayerLoop.PreLateUpdate/DirectorUpdateAnimationEnd
+
+// UnityEngine.PlayerLoop.PreLateUpdate/DirectorUpdateAnimationEnd
+
+// UnityEngine.PlayerLoop.PreLateUpdate/EndGraphicsJobsAfterScriptUpdate
+
+// UnityEngine.PlayerLoop.PreLateUpdate/EndGraphicsJobsAfterScriptUpdate
+
+// UnityEngine.PlayerLoop.PreLateUpdate/LegacyAnimationUpdate
+
+// UnityEngine.PlayerLoop.PreLateUpdate/LegacyAnimationUpdate
+
+// UnityEngine.PlayerLoop.PreLateUpdate/ParticleSystemBeginUpdateAll
+
+// UnityEngine.PlayerLoop.PreLateUpdate/ParticleSystemBeginUpdateAll
+
+// UnityEngine.PlayerLoop.PreLateUpdate/Physics2DLateUpdate
+
+// UnityEngine.PlayerLoop.PreLateUpdate/Physics2DLateUpdate
+
+// UnityEngine.PlayerLoop.PreLateUpdate/ScriptRunBehaviourLateUpdate
+
+// UnityEngine.PlayerLoop.PreLateUpdate/ScriptRunBehaviourLateUpdate
+
+// UnityEngine.PlayerLoop.PreLateUpdate/UIElementsUpdatePanels
+
+// UnityEngine.PlayerLoop.PreLateUpdate/UIElementsUpdatePanels
+
+// UnityEngine.PlayerLoop.PreLateUpdate/UNetUpdate
+
+// UnityEngine.PlayerLoop.PreLateUpdate/UNetUpdate
+
+// UnityEngine.PlayerLoop.PreLateUpdate/UpdateMasterServerInterface
+
+// UnityEngine.PlayerLoop.PreLateUpdate/UpdateMasterServerInterface
+
+// UnityEngine.PlayerLoop.PreLateUpdate/UpdateNetworkManager
+
+// UnityEngine.PlayerLoop.PreLateUpdate/UpdateNetworkManager
+
+// UnityEngine.PlayerLoop.PreUpdate/AIUpdate
+
+// UnityEngine.PlayerLoop.PreUpdate/AIUpdate
+
+// UnityEngine.PlayerLoop.PreUpdate/CheckTexFieldInput
+
+// UnityEngine.PlayerLoop.PreUpdate/CheckTexFieldInput
+
+// UnityEngine.PlayerLoop.PreUpdate/IMGUISendQueuedEvents
+
+// UnityEngine.PlayerLoop.PreUpdate/IMGUISendQueuedEvents
+
+// UnityEngine.PlayerLoop.PreUpdate/NewInputUpdate
+
+// UnityEngine.PlayerLoop.PreUpdate/NewInputUpdate
+
+// UnityEngine.PlayerLoop.PreUpdate/Physics2DUpdate
+
+// UnityEngine.PlayerLoop.PreUpdate/Physics2DUpdate
+
+// UnityEngine.PlayerLoop.PreUpdate/PhysicsUpdate
+
+// UnityEngine.PlayerLoop.PreUpdate/PhysicsUpdate
+
+// UnityEngine.PlayerLoop.PreUpdate/SendMouseEvents
+
+// UnityEngine.PlayerLoop.PreUpdate/SendMouseEvents
+
+// UnityEngine.PlayerLoop.PreUpdate/UpdateVideo
+
+// UnityEngine.PlayerLoop.PreUpdate/UpdateVideo
+
+// UnityEngine.PlayerLoop.PreUpdate/WindUpdate
+
+// UnityEngine.PlayerLoop.PreUpdate/WindUpdate
+
+// UnityEngine.PlayerLoop.TimeUpdate/WaitForLastPresentationAndUpdateTime
+
+// UnityEngine.PlayerLoop.TimeUpdate/WaitForLastPresentationAndUpdateTime
+
+// UnityEngine.PlayerLoop.Update/DirectorUpdate
+
+// UnityEngine.PlayerLoop.Update/DirectorUpdate
+
+// UnityEngine.PlayerLoop.Update/ScriptRunBehaviourUpdate
+
+// UnityEngine.PlayerLoop.Update/ScriptRunBehaviourUpdate
+
+// UnityEngine.PlayerLoop.Update/ScriptRunDelayedDynamicFrameRate
+
+// UnityEngine.PlayerLoop.Update/ScriptRunDelayedDynamicFrameRate
+
+// UnityEngine.PlayerLoop.Update/ScriptRunDelayedTasks
+
+// UnityEngine.PlayerLoop.Update/ScriptRunDelayedTasks
+
+// System.Delegate
+
+// System.Delegate
+
+// System.Reflection.MethodInfo
+
+// System.Reflection.MethodInfo
+
+// UnityEngine.LowLevel.PlayerLoopSystem
+
+// UnityEngine.LowLevel.PlayerLoopSystem
+
+// UnityEngine.LowLevel.PlayerLoopSystemInternal
+
+// UnityEngine.LowLevel.PlayerLoopSystemInternal
+
+// System.RuntimeTypeHandle
+
+// System.RuntimeTypeHandle
+
+// System.MulticastDelegate
+
+// System.MulticastDelegate
+
+// System.Type
 struct Type_t_StaticFields
 {
 	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
@@ -2063,15 +2679,15 @@ struct Type_t_StaticFields
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
 };
 
+// System.Type
+
 // UnityEngine.Events.UnityAction
-struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7  : public MulticastDelegate_t
-{
-};
+
+// UnityEngine.Events.UnityAction
 
 // UnityEngine.LowLevel.PlayerLoopSystem/UpdateFunction
-struct UpdateFunction_t1C48B7EECBE47AC123A9D9D7D9D2A9EE951C56C4  : public MulticastDelegate_t
-{
-};
+
+// UnityEngine.LowLevel.PlayerLoopSystem/UpdateFunction
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -2236,28 +2852,28 @@ IL2CPP_EXTERN_C void PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F_
 IL2CPP_EXTERN_C void PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F_marshal_com_cleanup(PlayerLoopSystem_t8AED6BF1C8A309CAA6FF71AC91DD33BDDFF7CF1F_marshaled_com& marshaled);
 
 // T System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 
 // System.Void UnityEngine.Events.UnityEventBase::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEventBase__ctor_mB1F958EAC1A7C4B31253F2E1FED173A628725DEC (UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8* __this, const RuntimeMethod* method) ;
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent::GetDelegate(UnityEngine.Events.UnityAction)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339* UnityEvent_GetDelegate_mBD5D37CFB826CB3329477A509A62BF7CE26A9EF8 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___action0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339* UnityEvent_GetDelegate_mBD5D37CFB826CB3329477A509A62BF7CE26A9EF8 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___0_action, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEventBase::AddCall(UnityEngine.Events.BaseInvokableCall)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEventBase_AddCall_mA78C058ED530789A28F42347B653190FEC84DBBC (UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8* __this, BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEventBase_AddCall_mA78C058ED530789A28F42347B653190FEC84DBBC (UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8* __this, BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339* ___0_call, const RuntimeMethod* method) ;
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEventBase::GetValidMethodInfo(System.Type,System.String,System.Type[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfo_t* UnityEventBase_GetValidMethodInfo_mCFA9547C470F2F90619A1514108BCE0F49F9B0CD (Type_t* ___objectType0, String_t* ___functionName1, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___argumentTypes2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfo_t* UnityEventBase_GetValidMethodInfo_mCFA9547C470F2F90619A1514108BCE0F49F9B0CD (Type_t* ___0_objectType, String_t* ___1_functionName, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___2_argumentTypes, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.InvokableCall::.ctor(System.Object,System.Reflection.MethodInfo)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvokableCall__ctor_mF3F94B432C977EE2DE7834EC2936E90D271C0464 (InvokableCall_t8481C00D3B38904F5B77ACEA2ABAE6AC119D4122* __this, RuntimeObject* ___target0, MethodInfo_t* ___theFunction1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvokableCall__ctor_mF3F94B432C977EE2DE7834EC2936E90D271C0464 (InvokableCall_t8481C00D3B38904F5B77ACEA2ABAE6AC119D4122* __this, RuntimeObject* ___0_target, MethodInfo_t* ___1_theFunction, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.InvokableCall::.ctor(UnityEngine.Events.UnityAction)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvokableCall__ctor_m4FA1428E3A33219B2C8C5C571A705AC6B862FA70 (InvokableCall_t8481C00D3B38904F5B77ACEA2ABAE6AC119D4122* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___action0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvokableCall__ctor_m4FA1428E3A33219B2C8C5C571A705AC6B862FA70 (InvokableCall_t8481C00D3B38904F5B77ACEA2ABAE6AC119D4122* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___0_action, const RuntimeMethod* method) ;
 // System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> UnityEngine.Events.UnityEventBase::PrepareInvoke()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t91E36549D76184780FD8995722CD4A87A2650C23* UnityEventBase_PrepareInvoke_m4D04FA5D7025C093047DCD3DFEEFB9DF48764FC2 (UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8* __this, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::get_Item(System.Int32)
-inline BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339* List_1_get_Item_m2B51DFE114B7ED5612ABA800B8165A60BACE1279 (List_1_t91E36549D76184780FD8995722CD4A87A2650C23* __this, int32_t ___index0, const RuntimeMethod* method)
+inline BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339* List_1_get_Item_m2B51DFE114B7ED5612ABA800B8165A60BACE1279 (List_1_t91E36549D76184780FD8995722CD4A87A2650C23* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	return ((  BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339* (*) (List_1_t91E36549D76184780FD8995722CD4A87A2650C23*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___index0, method);
+	return ((  BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339* (*) (List_1_t91E36549D76184780FD8995722CD4A87A2650C23*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
 // System.Void UnityEngine.Events.InvokableCall::Invoke()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvokableCall_Invoke_m6F4828FD2B3E3BBB7AA6EECC2C37FB08538363F4 (InvokableCall_t8481C00D3B38904F5B77ACEA2ABAE6AC119D4122* __this, const RuntimeMethod* method) ;
@@ -2311,18 +2927,18 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_UnityAction_t11A1F3B953B365C072A5DC
 
 }
 // System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
-	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
-	__this->___method_3 = ___method1;
-	__this->___m_target_2 = ___object0;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
 	__this->___method_code_6 = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___method1))
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
 	{
 		bool isOpen = parameterCount == 0;
-		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
 			if (isOpen)
 				__this->___invoke_impl_1 = (intptr_t)&UnityAction_Invoke_m5CB9EE17CCDF64D00DE5D96DF3553CDB20D66F70_OpenStaticInvoker;
 			else
@@ -2338,7 +2954,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD8
 	}
 	else
 	{
-		if (___object0 == NULL)
+		if (___0_object == NULL)
 			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
 		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
 		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
@@ -2370,10 +2986,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent__ctor_m03D3E5121B9A6100351984
 	}
 }
 // System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___call0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___0_call, const RuntimeMethod* method) 
 {
 	{
-		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_0 = ___call0;
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_0 = ___0_call;
 		BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339* L_1;
 		L_1 = UnityEvent_GetDelegate_mBD5D37CFB826CB3329477A509A62BF7CE26A9EF8(L_0, NULL);
 		UnityEventBase_AddCall_mA78C058ED530789A28F42347B653190FEC84DBBC(__this, L_1, NULL);
@@ -2381,7 +2997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486
 	}
 }
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEvent::FindMethod_Impl(System.String,System.Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfo_t* UnityEvent_FindMethod_Impl_m62E3D2795BACFF1BA2ED6A431ABD5FB2C7D3D681 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, String_t* ___name0, Type_t* ___targetObjType1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfo_t* UnityEvent_FindMethod_Impl_m62E3D2795BACFF1BA2ED6A431ABD5FB2C7D3D681 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, String_t* ___0_name, Type_t* ___1_targetObjType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2391,8 +3007,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfo_t* UnityEvent_FindMethod_Impl_m62E
 	}
 	MethodInfo_t* V_0 = NULL;
 	{
-		Type_t* L_0 = ___targetObjType1;
-		String_t* L_1 = ___name0;
+		Type_t* L_0 = ___1_targetObjType;
+		String_t* L_1 = ___0_name;
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_2 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)0);
 		MethodInfo_t* L_3;
 		L_3 = UnityEventBase_GetValidMethodInfo_mCFA9547C470F2F90619A1514108BCE0F49F9B0CD(L_0, L_1, L_2, NULL);
@@ -2407,7 +3023,7 @@ IL_0011:
 	}
 }
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent::GetDelegate(System.Object,System.Reflection.MethodInfo)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339* UnityEvent_GetDelegate_m6665C6282D3668BC57F2702FD0C3B108F4CFD226 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, RuntimeObject* ___target0, MethodInfo_t* ___theFunction1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339* UnityEvent_GetDelegate_m6665C6282D3668BC57F2702FD0C3B108F4CFD226 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, RuntimeObject* ___0_target, MethodInfo_t* ___1_theFunction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2417,8 +3033,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseInvokableCall_tB912356039B1D3806B23DFBC7E
 	}
 	BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339* V_0 = NULL;
 	{
-		RuntimeObject* L_0 = ___target0;
-		MethodInfo_t* L_1 = ___theFunction1;
+		RuntimeObject* L_0 = ___0_target;
+		MethodInfo_t* L_1 = ___1_theFunction;
 		InvokableCall_t8481C00D3B38904F5B77ACEA2ABAE6AC119D4122* L_2 = (InvokableCall_t8481C00D3B38904F5B77ACEA2ABAE6AC119D4122*)il2cpp_codegen_object_new(InvokableCall_t8481C00D3B38904F5B77ACEA2ABAE6AC119D4122_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
 		InvokableCall__ctor_mF3F94B432C977EE2DE7834EC2936E90D271C0464(L_2, L_0, L_1, NULL);
@@ -2433,7 +3049,7 @@ IL_000b:
 	}
 }
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent::GetDelegate(UnityEngine.Events.UnityAction)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339* UnityEvent_GetDelegate_mBD5D37CFB826CB3329477A509A62BF7CE26A9EF8 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___action0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339* UnityEvent_GetDelegate_mBD5D37CFB826CB3329477A509A62BF7CE26A9EF8 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___0_action, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2443,7 +3059,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseInvokableCall_tB912356039B1D3806B23DFBC7E
 	}
 	BaseInvokableCall_tB912356039B1D3806B23DFBC7E9CFA1BCC82F339* V_0 = NULL;
 	{
-		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_0 = ___action0;
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_0 = ___0_action;
 		InvokableCall_t8481C00D3B38904F5B77ACEA2ABAE6AC119D4122* L_1 = (InvokableCall_t8481C00D3B38904F5B77ACEA2ABAE6AC119D4122*)il2cpp_codegen_object_new(InvokableCall_t8481C00D3B38904F5B77ACEA2ABAE6AC119D4122_il2cpp_TypeInfo_var);
 		NullCheck(L_1);
 		InvokableCall__ctor_m4FA1428E3A33219B2C8C5C571A705AC6B862FA70(L_1, L_0, NULL);
@@ -2736,18 +3352,18 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_UpdateFunction_t1C48B7EECBE47AC123A
 
 }
 // System.Void UnityEngine.LowLevel.PlayerLoopSystem/UpdateFunction::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdateFunction__ctor_m0D1D766F22D02176396DA6745A60EA046EE8227B (UpdateFunction_t1C48B7EECBE47AC123A9D9D7D9D2A9EE951C56C4* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdateFunction__ctor_m0D1D766F22D02176396DA6745A60EA046EE8227B (UpdateFunction_t1C48B7EECBE47AC123A9D9D7D9D2A9EE951C56C4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
-	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
-	__this->___method_3 = ___method1;
-	__this->___m_target_2 = ___object0;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
 	__this->___method_code_6 = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___method1))
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
 	{
 		bool isOpen = parameterCount == 0;
-		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
 			if (isOpen)
 				__this->___invoke_impl_1 = (intptr_t)&UpdateFunction_Invoke_m9BCEE4E5BEE924EB804DA64314B78D0E831C179B_OpenStaticInvoker;
 			else
@@ -2763,7 +3379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UpdateFunction__ctor_m0D1D766F22D0217639
 	}
 	else
 	{
-		if (___object0 == NULL)
+		if (___0_object == NULL)
 			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
 		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
 		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
