@@ -10,11 +10,13 @@ public class Player : MonoBehaviour
     public bool CameraFollow = true;
     public bool canMove = true;
     public bool HasChargingCable;
+    public bool SlowDown;
     public Transform DirectionControllerParent;
     private Transform DirectionControllerChild;
     public Animator Anim;
     public Vector3 CameraOffset;
     public float Speed;
+    public float SlowDownSpeed = 0.7f;
     public List<GameObject> StackedBlocks;
     public GameObject ChargingPlug;
     public Transform StackPos;
@@ -63,8 +65,16 @@ public class Player : MonoBehaviour
         /*Wobble w = FindObjectOfType<Wobble>();
         w.Fill = (WaterLevel - 0.7f) / (0.3f - 0.7f);*/
 
+        float oldrange = 1f - 0f;
+        float newrange = 0.3f - 0.7f;
+        float newvalue = (((WaterLevel - 0) * newrange) / oldrange) + 0.7f;
+
+        Liquid l = FindObjectOfType<Liquid>();
+        l.fillAmount = newvalue;
+
         if(WaterLevel <= 0)
         {
+            l.MaxWobble = 0;
             foreach(GameObject g in CleaningSystem)
             {
                 g.SetActive(false);
@@ -72,6 +82,7 @@ public class Player : MonoBehaviour
         }
         else
         {
+            l.MaxWobble = 0.03f;
             foreach (GameObject g in CleaningSystem)
             {
                 g.SetActive(true);
@@ -119,18 +130,27 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // Move Towards Direction Controller
-        transform.position = Vector3.MoveTowards(transform.position, DirectionControllerChild.position, Speed);
+        if(SlowDown == true)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, DirectionControllerChild.position, Speed * SlowDownSpeed);
+        }
+        else if(SlowDown == false)
+        {
+            // Move Towards Direction Controller
+            transform.position = Vector3.MoveTowards(transform.position, DirectionControllerChild.position, Speed);
+        }
     }
     
     private void LateUpdate()
     {
         //Camera Follow System
-        if(CameraFollow == true)
+        if (CameraFollow == true)
+        {
             Camera.main.transform.position = transform.position + CameraOffset;
+        }
     }
 
-    private void OnTriggerEnter(Collider other) 
+    private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "PackageArea1" && HasChargingCable == false)
         {
@@ -171,6 +191,8 @@ public class Player : MonoBehaviour
         if(other.tag == "UpgradeArea")
         {
             UpgradeMenu.SetActive(true);
+            CameraFollow = false;
+            FindObjectOfType<GameManager>().Pos = new Vector3(other.transform.position.x, other.transform.position.y + 3f, other.transform.position.z - 3f);
         }
 
         if (other.tag == "CleaningArea")
@@ -178,9 +200,16 @@ public class Player : MonoBehaviour
             Deplete = true;
         }
 
+        if (other.tag == "CleaningArea2")
+        {
+            SlowDown = true;
+        }
+
         if(other.tag == "WaterRefillArea")
         {
             Fill = true;
+            CameraFollow = false;
+            FindObjectOfType<GameManager>().Pos = new Vector3(other.transform.position.x, other.transform.position.y + 3f, other.transform.position.z - 3f);
         }
     }
 
@@ -189,6 +218,7 @@ public class Player : MonoBehaviour
         if(other.tag == "UpgradeArea")
         {
             UpgradeMenu.SetActive(false);
+            CameraFollow = true;
         }
 
         if (other.tag == "CleaningArea")
@@ -196,9 +226,15 @@ public class Player : MonoBehaviour
             Deplete = false;
         }
 
+        if (other.tag == "CleaningArea2")
+        {
+            SlowDown = false;
+        }
+
         if (other.tag == "WaterRefillArea")
         {
             Fill = false;
+            CameraFollow = true;
         }
     }
 

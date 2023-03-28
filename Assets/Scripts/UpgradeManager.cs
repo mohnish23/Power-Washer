@@ -24,6 +24,7 @@ public class UpgradeManager : MonoBehaviour
     void Start()
     {
         player = FindObjectOfType<Player>();
+        PlayerPrefs.SetInt("Money", 100000);
     }
 
     // Update is called once per frame
@@ -66,7 +67,7 @@ public class UpgradeManager : MonoBehaviour
             SpeedBtn.interactable = true;
         }
 
-        if(Input.GetKeyDown(KeyCode.K))
+        if (Input.GetKeyDown(KeyCode.K))
         {
             PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money") + 8000);
             SizeUpgrade();

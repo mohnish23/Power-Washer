@@ -7,6 +7,10 @@ TagManager:
   - CleaningArea
   - WaterRefillArea
   - UpgradeArea
+  - LeafBlower
+  - GrassCutter
+  - CleaningArea2
+  - HelperArea
   layers:
   - Default
   - TransparentFX
