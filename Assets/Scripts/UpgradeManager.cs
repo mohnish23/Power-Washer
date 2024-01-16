@@ -24,7 +24,7 @@ public class UpgradeManager : MonoBehaviour
     void Start()
     {
         player = FindObjectOfType<Player>();
-        PlayerPrefs.SetInt("Money", 100000);
+        //PlayerPrefs.SetInt("Money", 100000);
     }
 
     // Update is called once per frame
